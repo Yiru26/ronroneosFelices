@@ -2,8 +2,8 @@
 
 /* variables globales */
 :root {
-    --font-ppal: 'DM Mono', sans-serif;
-    --font-sec: 'Lora', arial;
+    --font-ppal: 'DM Mono', monospace;
+    --font-sec: 'Lora', serif;
     --bg-ppal: #FAF6EE;
     /* Crema: fondo principal */
     --bg-sec: #F8E5D9;
@@ -14,6 +14,8 @@
     /* Ciruela: párrafos y pies de foto */
     --accent: #F28C6B;
     /* Coral suave: subrayados y detalles */
+    --links: #63334F;
+    /* Violeta intenso: distingue los enlaces de los títulos */
 }
 
 /* Reset */
@@ -22,7 +24,7 @@ body {
 }
 
 a {
-    color: var(--accent);
+    color: var(--links);
     text-decoration: none;
 }
 
@@ -36,6 +38,7 @@ h3 {
 
 h1 {
     font-size: 3rem;
+    font-weight: 700;
 }
 
 h2 {
@@ -50,7 +53,7 @@ h3 {
 p {
     font-family: var(--font-sec);
     color: var(--text);
-    font: size 1.1rem;
+    font-size: 1.1rem;
 }
 
 /* quitar lista */
@@ -76,6 +79,13 @@ ul {
 
 
 /* header */
+.menu {
+    background-color: var(--bg-sec);
+    display: flex;
+    align-items: center;
+    /* Menu alineado verticalmente */
+}
+
 .menu-list {
     display: flex;
 }
