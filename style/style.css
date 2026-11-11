@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* variables globales */
+:root {
+    --font-ppal: 'DM Mono', sans-serif;
+    --font-sec: 'Lora', arial;
+    --bg-ppal: #FAF6EE;
+    /* Crema: fondo principal */
+    --bg-sec: #F8E5D9;
+    /* Durazno claro: fondo del footer */
+    --titles: #B52A63;
+    /* Rosa frambuesa: títulos y menú */
+    --text: #63334F;
+    /* Ciruela: párrafos y pies de foto */
+    --accent: #F28C6B;
+    /* Coral suave: subrayados y detalles */
+}
+
+/* Reset */
+body {
+    background-color: var(--bg-ppal);
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+/* titulos */
+h1,
+h2,
+h3 {
+    font-family: var(--font-ppal);
+    color: var(--titles);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+/* textos */
+p {
+    font-family: var(--font-sec);
+    color: var(--text);
+    font: size 1.1rem;
+}
+
+/* quitar lista */
+ul {
+    list-style: none;
+}
+
+/* preguntas frecuentes */
+.preguntasfrecuentes {
+    padding: 0 24px;
+}
+
+/* tamaño de imagen */
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+.main-img {
+    width: 480px;
+    height: auto;
+}
+
+
+/* header */
+.menu-list {
+    display: flex;
+}
+
+.menu-list a {
+    padding: 0.5rem;
+    font-weight: 600;
+}
+
+/* footer */
+.redes {
+    width: 50px;
+    height: auto;
+}
+
+.redes-list {
+    display: flex;
+}
+
+.redes-list a {
+    font-weight: 600;
+
+}
+
+.footer {
+    background-color: var(--bg-sec);
+}
