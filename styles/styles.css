@@ -60,7 +60,7 @@ a {
 }
 
 .info {
-    padding: 16px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -116,10 +116,7 @@ ul {
     list-style: none;
 }
 
-/* preguntas frecuentes */
-.preguntasfrecuentes {
-    padding: 0 24px;
-}
+
 
 
 /* imagen de rufus */
@@ -168,7 +165,8 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 100px 200px;
-    gap: 32px;
+    gap: 60px;
+    align-items: center;
 }
 
 .imgpareja {
@@ -182,30 +180,12 @@ ul {
 .parejatexto {
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    padding: 30px;
+    gap: 20px;
 }
 
 /* main de contacto */
-.contacto {
-    display: flex;
-    justify-content: space-between;
-    padding: 100px 200px;
-    gap: 32px;
-}
 
-.imgcontacto {
-    width: 280px;
-    height: auto;
-    box-sizing: border-box;
-}
 
-.contactotext {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding: 30px;
-}
 
 .list-servicios {
     display: flex;
@@ -214,12 +194,7 @@ ul {
 }
 
 /* main servicios */
-.gato-rosa {
-    width: 480px;
-    height: auto;
-    box-sizing: border-box;
-    border-radius: 16px;
-}
+
 
 .reverse {
     flex-direction: row-reverse;
