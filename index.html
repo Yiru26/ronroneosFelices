@@ -5,15 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ronroneos felices - Nuestro Sitio Web</title>
-    <link rel="stylesheet" href="./style/styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body>
     <header class="menu">
-        <figure>
-            <img src="./img/logo-gatito.png" alt="logo de gato" class="logo">
-        </figure>
-        <h1>Ronroneos felices</h1>
+        <div class="logo-title">
+            <figure>
+                <img src="./img/logo-gatito.png" alt="logo de gato" class="logo">
+            </figure>
+            <h1>Ronroneos felices</h1>
+        </div>
         <nav>
             <ul class="menu-list">
                 <li>
@@ -36,15 +38,34 @@
     </header>
     <main>
         <section>
-            <article>
-                <h2> Cuidamos a tu gato/a con amor</h2>
-                <p> Compañia y atencion para que se sienta feliz como en su hogar</p>
+            <article class="main-content">
+                <div class="info">
+                    <h2> Cuidamos a tu gato/a con amor</h2>
+                    <p class="info-text">Si vas a estar fuera de casa, visitamos a tu gato para que pueda seguir su
+                        rutina en el lugar
+                        que conoce. Nos ocupamos de sus cuidados diarios y le hacemos compañía a su ritmo.</p>
+                    <button class=" main-button"> Conoce nuestros servicios</button>
+                </div>
                 <figure>
                     <img src=".//img/gato-en-sillon.jpg" alt="Un gato semi sentado descansando en un sillon amarillo"
                         class="main-img" />
                     <figcaption> Rufus sentado muy comodo en el sillon</figcaption>
                 </figure>
             </article>
+            <div class="sec-content">
+                <h3 class="content-title">¿Cómo funciona?</h3>
+                <ul class="list-como-funciona">
+                    <li>1.Escribinos. Contanos en qué fechas necesitás ayuda y cómo es tu gato.</li>
+                    <li>2.Acordamos los cuidados. Repasamos sus horarios, sus costumbres y lo que necesita en cada
+                        visita.</li>
+                    <li>3.Coordinamos las visitas. Acordamos los horarios y te mandamos novedades para que sepas
+                        cómo está.</li>
+                </ul>
+                <h3 class="content-title">¿Cuándo podés contar con nosotros?</h3>
+                <p>Ya sea por un viaje, un fin de semana fuera o un día largo de trabajo, podemos pasar a verlo para
+                    que tenga compañía y mantenga su rutina.</p>
+            </div>
+
         </section>
     </main>
     <footer class="footer">

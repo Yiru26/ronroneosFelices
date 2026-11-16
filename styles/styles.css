@@ -1,0 +1,251 @@
+/* configuracion global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Estilo de fuente */
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+/* Reset */
+body {
+    background-color: #faf6eE;
+}
+
+a {
+    color: #63334F;
+    text-decoration: none;
+}
+
+/* Main */
+/* tamaño de imagen */
+.logo {
+    width: 80px;
+    height: auto;
+    margin: 0;
+}
+
+/* Main inicio*/
+.main-button {
+    background-color: #B52A63;
+    color: #F8E5D9;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: fit-content;
+    font-size: 1rem;
+}
+
+/* Ordeno contenido del main*/
+.main-content {
+    display: flex;
+    padding: 60px 120px;
+    gap: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-content {
+    padding: 0px 120px 60px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.content-title {
+    margin-top: 12px;
+}
+
+.info {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.info-text {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+
+}
+
+/* Como funciona */
+.list-como-funciona {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+/* titulos */
+h1,
+h2,
+h3 {
+    font-family: 'DM Mono', monospace;
+    color: #B52A63;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+/* textos */
+p,
+li,
+a {
+    font-family: 'Lora', serif;
+    color: #63334F;
+    font-size: 1.1rem;
+
+}
+
+/* quitar lista */
+ul {
+    list-style: none;
+}
+
+/* preguntas frecuentes */
+.preguntasfrecuentes {
+    padding: 0 24px;
+}
+
+
+/* imagen de rufus */
+.main-img {
+    width: 480px;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+
+
+/* header */
+/* Menu alineado verticalmente */
+.menu {
+    background-color: #F8E5D9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px;
+}
+
+/* titulo y logo juntos */
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* espacio entre los menu */
+.menu-list {
+    display: flex;
+    gap: 16px;
+
+}
+
+.menu-list a {
+    display: inline-block;
+    font-weight: 600;
+}
+
+/* main nosotros */
+
+.pareja {
+    padding: 0px 120px 60px 120px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 200px;
+    gap: 32px;
+}
+
+.imgpareja {
+    width: 480px;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 16px;
+
+}
+
+.parejatexto {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 30px;
+}
+
+/* main de contacto */
+.contacto {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 200px;
+    gap: 32px;
+}
+
+.imgcontacto {
+    width: 280px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.contactotext {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 30px;
+}
+
+.list-servicios {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* main servicios */
+.gato-rosa {
+    width: 480px;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+/* footer */
+.redes {
+    width: 50px;
+    height: auto;
+}
+
+.redes-list {
+    display: flex;
+    gap: 16px;
+}
+
+.redes-list a {
+    font-weight: 600;
+
+}
+
+.footer {
+    display: flex;
+    background-color: #F8E5D9;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
