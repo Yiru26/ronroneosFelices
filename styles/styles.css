@@ -104,19 +104,15 @@ header {
 
 /* Ordeno contenido del main*/
 .main-content {
-    display: flex;
+    display: grid;
+    grid-template-areas: "info img"
+        "content content";
     padding: 60px 120px;
     gap: 60px;
     justify-content: space-between;
     align-items: center;
 }
 
-.sec-content {
-    padding: 0px 120px 60px 120px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
 
 .content-title {
     margin-top: 12px;
@@ -127,6 +123,11 @@ header {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    grid-area: info;
+}
+
+.content {
+    grid-area: content;
 }
 
 .info-text {
@@ -151,13 +152,17 @@ header {
     border-radius: 16px;
 }
 
+.main-img-container {
+    grid-area: img;
+}
+
 
 /* main nosotros */
 
-.pareja {
+.sec-content {
     display: flex;
     justify-content: space-between;
-    padding: 100px 120px;
+
     gap: 60px;
     align-items: center;
 }
