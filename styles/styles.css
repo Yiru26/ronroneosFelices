@@ -251,7 +251,7 @@ header {
 
 /* imagen de rufus */
 .main-img {
-    width: 480px;
+    width: 100%;
     height: auto;
     box-sizing: border-box;
     border-radius: 16px;
