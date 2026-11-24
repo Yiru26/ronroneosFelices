@@ -64,7 +64,7 @@ ul {
 
 /* header */
 /* Menu alineado verticalmente */
-.menu {
+header {
     background-color: #F8E5D9;
     display: flex;
     justify-content: space-between;
@@ -204,7 +204,7 @@ ul {
 
 }
 
-.footer {
+footer {
     display: flex;
     background-color: #F8E5D9;
     flex-direction: column;
